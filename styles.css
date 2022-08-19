@@ -1,0 +1,39 @@
+:root {
+    --white: hsl(0, 0%, 100%);
+    --lg: hsl(212, 45%, 89%);
+    -gb: hsl(220, 15%, 55%);
+    --db: hsl(218, 44%, 22%);
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--lg)
+}
+
+.qr-container {
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
+    background-color: var(--white);
+    margin: 20vh auto;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.attribution {
+    text-align: center;
+}
+img {
+    margin: 15px 10px;
+    width: 90%;
+    border-radius: 10px;
+}
+h1, p {
+    margin: 0 10px;
+}
+h1 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 1em;
+    color: var(--db)
+}
+p {
+    font-size: 0.75em;
+    color: var(--db)
+}

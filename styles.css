@@ -6,13 +6,18 @@
     font-family: 'Montserrat', sans-serif;
     background-color: var(--lg)
 }
-
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
 .qr-container {
     width: 300px;
     height: 450px;
     border-radius: 10px;
     background-color: var(--white);
-    margin: 20vh auto;
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
